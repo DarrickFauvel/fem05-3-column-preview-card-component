@@ -1,0 +1,73 @@
+@use '../abstracts' as *;
+
+.card {
+  padding: 4.8rem;
+  max-width: 32.7rem;
+
+  img {
+    margin-bottom: 3rem;
+  }
+
+  h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: $clr-heading;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: $clr-paragraph;
+    line-height: 2.5rem;
+  }
+
+  button {
+    background-color: $clr-button;
+    border: none;
+    border-radius: 2.5rem;
+    padding: 1.1rem 3.1rem;
+    margin-top: 2.4rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: transparent;
+      color: $clr-button;
+      box-shadow: inset 0 0 0 2px $clr-button;
+    }
+  }
+
+  &-1 {
+    background-color: $clr-card-1;
+    border-radius: 0.8rem 0.8rem 0 0;
+
+    button {
+      color: $clr-card-1;
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      border-radius: 0.8rem 0 0 0.8rem;
+    }
+  }
+
+  &-2 {
+    background-color: $clr-card-2;
+
+    button {
+      color: $clr-card-2;
+    }
+  }
+
+  &-3 {
+    background-color: $clr-card-3;
+    border-radius: 0 0 0.8rem 0.8rem;
+
+    button {
+      color: $clr-card-3;
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      border-radius: 0 0.8rem 0.8rem 0;
+    }
+  }
+}

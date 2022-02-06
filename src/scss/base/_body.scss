@@ -1,0 +1,9 @@
+body {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  // min-height: 100vh;
+}
