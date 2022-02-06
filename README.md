@@ -47,7 +47,7 @@ Users should be able to:
 
 I learned that using the CSS `box-shadow` property with value `inset 0 0 0 2px white` makes a nice button outline on mouse hover.
 
-I've seen people use this pattern using a border:
+I've seen people implement this pattern using the CSS `border` property:
 
 ```css
 .button {
@@ -58,7 +58,7 @@ I've seen people use this pattern using a border:
 }
 ```
 
-But I think it's more convenient to use the box-shadow method:
+But I think it's more convenient to use the CSS `box-shadow: inset` method:
 
 ```css
 .button:hover {
