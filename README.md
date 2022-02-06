@@ -39,7 +39,6 @@ Users should be able to:
 
 - Mobile-first workflow
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - [Sass](https://www.sass-lang.com) - CSS with superpowers
 - [Parcel](https://parceljs.org) - Zero config build tool
