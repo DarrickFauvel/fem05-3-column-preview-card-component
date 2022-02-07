@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  max-width: 32.7rem;
 
   @media (min-width: $breakpoint-lg) {
     flex-direction: row;
