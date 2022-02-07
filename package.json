@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)",
   "scripts": {
-    "start": "parcel src/index.html --no-source-maps",
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
   "keywords": [],
