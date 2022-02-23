@@ -9,22 +9,24 @@
     grid-template: 1fr min-content / 1fr;
   }
 
-  img {
-    margin-bottom: 2.1875em;
-  }
+  .card__info {
+    img {
+      margin-bottom: 2.1875em;
+    }
 
-  h2 {
-    font-family: 'Big Shoulders Display', sans-serif;
-    font-size: 4rem;
-    font-weight: 700;
-    color: $clr-heading;
-    margin-bottom: 1em;
-    text-transform: uppercase;
-  }
+    h2 {
+      font-family: 'Big Shoulders Display', sans-serif;
+      font-size: 4rem;
+      font-weight: 700;
+      color: $clr-heading;
+      margin-bottom: 0.5em;
+      text-transform: uppercase;
+    }
 
-  p {
-    color: $clr-paragraph;
-    line-height: 1.66;
+    p {
+      color: $clr-paragraph;
+      line-height: 1.66;
+    }
   }
 
   .btn {
@@ -36,6 +38,10 @@
     margin-top: 1.5em;
     transition: all 0.3s ease-in-out;
     inline-size: max-content;
+
+    @media (min-width: $breakpoint-lg) {
+      margin-top: 4em;
+    }
 
     &:hover {
       background-color: transparent;
