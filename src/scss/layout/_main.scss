@@ -1,15 +1,14 @@
 @use '../abstracts' as *;
 
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  max-width: 32.7rem;
+  display: grid;
+  grid-template: repeat(3, 1fr) / 1fr;
+  justify-content: center;
+  margin-block: 1.25em;
 
   @media (min-width: $breakpoint-lg) {
-    flex-direction: row;
-    justify-content: center;
+    grid-template: max-content / repeat(3, 1fr);
+    align-content: center;
     max-width: 92rem;
     min-height: 100vh;
   }
