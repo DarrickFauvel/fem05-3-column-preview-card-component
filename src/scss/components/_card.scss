@@ -35,6 +35,7 @@
     padding: 1.3rem 3.15rem;
     margin-top: 2.4rem;
     transition: all 0.3s ease-in-out;
+    inline-size: max-content;
 
     &:hover {
       background-color: transparent;
