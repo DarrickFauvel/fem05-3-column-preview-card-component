@@ -1,6 +1,6 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  justify-content: center;
+
+  margin-inline: 1.25em;
 }
