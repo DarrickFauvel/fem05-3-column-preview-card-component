@@ -5,11 +5,8 @@
   max-width: 32.7rem;
 
   @media (min-width: $breakpoint-lg) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    min-height: 50rem;
+    display: grid;
+    grid-template: 1fr min-content / 1fr;
   }
 
   img {
