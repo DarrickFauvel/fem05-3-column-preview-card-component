@@ -1,8 +1,8 @@
 @use '../abstracts' as *;
 
 .card {
-  padding: 4.8rem;
-  max-width: 32.7rem;
+  padding: 3em;
+  max-width: 27.5em;
 
   @media (min-width: $breakpoint-lg) {
     display: grid;
@@ -10,7 +10,7 @@
   }
 
   img {
-    margin-bottom: 3rem;
+    margin-bottom: 2.1875em;
   }
 
   h2 {
@@ -18,7 +18,7 @@
     font-size: 4rem;
     font-weight: 700;
     color: $clr-heading;
-    margin-bottom: 2rem;
+    margin-bottom: 1em;
     text-transform: uppercase;
   }
 
@@ -31,9 +31,9 @@
     display: inline-block;
     text-decoration: none;
     background-color: $clr-button;
-    border-radius: 2.5rem;
-    padding: 1.3rem 3.15rem;
-    margin-top: 2.4rem;
+    border-radius: 1.5625em;
+    padding: 0.8125em 1.96875em;
+    margin-top: 1.5em;
     transition: all 0.3s ease-in-out;
     inline-size: max-content;
 
@@ -46,14 +46,14 @@
 
   &-1 {
     background-color: $clr-card-1;
-    border-radius: 0.8rem 0.8rem 0 0;
+    border-radius: 0.5em 0.5em 0 0;
 
     .btn {
       color: $clr-card-1;
     }
 
     @media (min-width: $breakpoint-lg) {
-      border-radius: 0.8rem 0 0 0.8rem;
+      border-radius: 0.5em 0 0 0.5em;
     }
   }
 
@@ -67,14 +67,14 @@
 
   &-3 {
     background-color: $clr-card-3;
-    border-radius: 0 0 0.8rem 0.8rem;
+    border-radius: 0 0 0.5em 0.5em;
 
     .btn {
       color: $clr-card-3;
     }
 
     @media (min-width: $breakpoint-lg) {
-      border-radius: 0 0.8rem 0.8rem 0;
+      border-radius: 0 0.5em 0.5em 0;
     }
   }
 }
